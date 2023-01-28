@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Décimo Terceiro</title>
+    <link rel="stylesheet" href="projeto_2.css">
+</head>
+<body>
+    
+
+    <header>
+
+        <nav>
+            <a href="projeto_completo.html">VOLTAR</a>
+
+        </nav>
+
+        <h3>Daniel o master desenvolvedor</h3>
+        <h4>Exemplo de pagina em javascript</h4>
+    </header>
+
+
+    <!-- Décimo -->
+    <section class="conteiner mar quebra_linha">
+        <h2>Décimo</h2>
+            <p>O décimo terceiro, também conhecido como gratificação de Natal, foi instituído no país em 1962. O direito ao trabalhador foi     implementado no governo João Goulart, por meio da lei nº 4.090/1962.</p>
+            <p>Como o nome sugere, ele é uma remuneração extra, que é paga no fim do ano.</p>
+        <h2 class="margim_label_calculo">Cálculo</h2>
+
+        <DIV class="resposta">
+            <script>
+
+                let salario = Number(prompt("Insira o seu salário"));
+                let parcela1 = salario/2;
+                let imposto = salario/100 * 9;
+                let parcela2 = salario-imposto-parcela1;
+
+                document.write("Salário informado R$"+salario.toFixed(2) + "<br/>");
+                document.write("Primeira parcela R$"+parcela1.toFixed(2)+"<br/>");
+                document.write("Imposto R$"+imposto.toFixed(2)+"<br/>");
+                document.write("Segunda parcela"+parcela2.toFixed(2)+"<br/>");
+
+                
+
+            </script>
+        </DIV>
+        
+    </section>
+
+
+    <footer>
+        <h3>Daniel o master desenvolvedor</h3>
+        <h4>PÁGINA EM JAVASCRIPT</h4>
+
+        <p class="texto-footer">Contatos:</p>
+        <p class="texto-footer">danielkloh06@gmail.com</p>
+        <p class="texto-footer">CNPJ: 00.000.000/0001-00</p>
+
+    </footer>
+
+</body>
+</html>
