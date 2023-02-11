@@ -53,6 +53,9 @@ nav a{
     transition: all 0.3s;
 }
 
+.leyout_mobile{
+    padding-left: 20px;
+
 a:hover{
     color: #111111
 }
